@@ -1,0 +1,17 @@
+var xy = 20;
+var y = 12;
+content body = 'file.txt'
+content footer = 'file2.txt'
+
+
+render {
+    <html>
+    <body>
+    @body*xy;
+    @body*;
+    <footer>
+    @footer*y;
+    </footer>
+    </body>
+    </html>
+}
